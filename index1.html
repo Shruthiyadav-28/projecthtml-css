@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+
+
+<style>
+
+.class1>i{
+  padding-top: 0%;
+  margin-top: 0%;
+  position: fixed;
+  padding: 20px;
+  box-shadow: #f1f1f1;
+ }
+  a{
+  
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }  
+.container{
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+
+
+}
+.child{
+    display: flex;
+    gap:20px;
+    text-decoration: none;
+    font-size: 2rex;
+    position: fixed;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  padding: 0px;
+  margin: 0px;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+.content1{
+     display: flex;
+     width:90%;
+     padding: 10px;
+    
+}
+.content2{
+
+
+ 
+}
+.content3{
+
+ 
+  width:40%;
+  animation: move 2.5s forwards;
+  
+  
+}
+.dropdown {
+  width: 200px;
+}
+ 
+.content4{
+     display: flex;
+     gap:10px;
+     
+}
+.one{
+  /* color: blue; */
+  padding: 10px;
+}
+.one-middle{
+  font-size: 12px;
+  width:450px;
+  height: 90px;
+  padding: 10px;
+}
+.btn{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-color:black;
+    
+
+}
+.btn:hover{
+    background-color: lightseagreen;
+    color:white;
+    border-color: white;
+
+}
+.one-last{
+     width:50%;
+     height:90px;
+     object-fit: cover;
+     font-size: 12px;
+}
+.content5{
+font-size: 12px;
+}
+
+@keyframes scrollanimation{
+        from{
+            transform:translate(1200px,100px);
+
+        }
+        to{
+transform: translate(0px,0px);
+        }
+    }
+    .content3{
+        animation-name:scrollanimation ;
+        animation-duration: 2s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+    }
+ 
+
+
+</style>
+
+</head>
+  
+<body>
+
+ 
+ <div class="content1" >
+   <div class="content2">
+  <img src="./Layer img1.png" ></div>
+    
+   <div class="content3">
+  <div class="content4">
+  <h2> About </h2> <h3>jevelin clinic </h3></div>
+    <div class="one">PROFESSIONAL CARE </div>  
+ <div class="one-middle">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</div>
+
+<div class="one-last">
+  <div class="dropdown">
+    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Medical Consulting
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#"><div class="content5">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+    </a>
+  </div>  </div><br><br>
+
+     <div class="dropdown">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Laboratory Analysis
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">
+          <div class="content5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+     </div>  </div><br><br>
+       <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Diagnostic clinic
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">  <div class="content5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p></div>
+     </div></div>
+  </div></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

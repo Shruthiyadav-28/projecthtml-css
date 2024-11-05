@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+<style>
+      
+      .class1>i{
+  padding-top: 0%;
+  margin-top: 0%;
+  position: fixed;
+  padding: 20px;
+  box-shadow: #f1f1f1;
+ }
+  a{
+  
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }  
+.container{
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+
+
+}
+.child{
+    display: flex;
+    gap:20px;
+    text-decoration: none;
+    font-size: 2rex;
+    position: fixed;
+} 
+  
+
+.contain2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    gap: 10px;
+    margin: 30px;
+   height: 600;
+  padding: 40px;
+
+    
+}
+.one_top{
+    justify-content: flex-start;
+   gap: 10px;
+   margin: 5px;
+}
+ .item{
+    justify-items: center;
+ }
+ .contain3{
+   position: relative;
+ }
+ .contain4{
+  position: absolute;
+    bottom: 350px;
+    right:  30px;
+    width:600px;
+    height: 40%;
+    animation: move 2.5s forwards;
+  
+}
+.one{
+  
+}
+button{
+    border-radius: 20px;
+    background-color: lightseagreen;
+    padding: 20px;
+    color: white;
+
+}
+button:hover{
+    background-color:white;
+    color: black;
+
+}
+
+ 
+    body{
+        padding: 0%;
+        margin: 0%; 
+        background-repeat: no-repeat;
+      
+}
+*{
+    box-sizing: border-box;
+}
+
+.control1{
+    font-size: 2.8rem;
+    padding: 20px;
+    margin:20px;
+}
+.control{
+    justify-content: center;
+    text-align: center;
+   
+    background-repeat: no-repeat;
+        background-image: url(./bgimg2.jpg);
+        width:100%;
+      
+  
+}
+header{
+    padding: 10px;
+    margin:20px;
+    font-size: 2.6rex;
+}
+.control2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+ 
+   
+}
+.control3{
+    background-color:lightblue;
+    width: 28%;
+    text-align: center;
+    padding: 30px;
+    margin:20px;
+   
+    
+}
+.control4{
+    background-color: white;
+    width:28%;  
+    text-align: center;
+    padding: 30px;
+    margin:20px;
+} 
+.control5{
+    background-color: lightblue;
+    width:28%;  
+    text-align: center;
+    padding: 30px;
+    margin:20px;
+   
+}
+span{
+    font-size: 2.8rem;
+    padding: 10px ;
+}
+.control3>i{
+  padding: 10px;
+}
+
+.control3>p{
+  padding: 10px;
+}
+
+.control4>i{
+  padding: 10px;
+}
+
+.control4>p{
+  padding: 10px;
+}
+
+.control5>i{
+  padding: 10px;
+}
+
+.control5>p{
+  padding: 10px;
+}
+
+
+
+
+.content0>p{
+    font-size: 0.8rem;
+    padding: 10px;
+    margin:10px;
+}
+
+.button6{
+    border-radius: 20px;
+    background-color: blue;
+   
+    padding: 10px;
+    color:black;
+    margin: 80px;
+    width: 150px;
+    border: 2px solid blue
+
+}
+.button6:hover{
+  border: 2px solid  blue;
+  background-color: white;
+    color: black;
+    
+   
+    }
+    .button7{
+    border-radius: 20px;
+    
+    padding: 10px;
+    color:black;
+    margin: 80px;
+    width: 150px;
+   
+
+}
+.button7:hover{
+  background-color: white;
+ 
+    color: black;
+    border: 2px solid lightskyblue;
+}
+.button9{
+    border-radius: 20px;
+   
+    padding: 10px;
+    color:black;
+    width: 150px;
+    text-align: center;
+    background-color: lightseagreen;
+    border: none;
+
+}
+.button9:hover{
+  
+    border: 2px solid  lightseagreen;
+    color: black;
+    background-color: white;
+}
+    .btn1 {
+       padding: 18px;
+    }  
+  .content3{
+      width:100px;
+      padding: 20px;
+      margin:20px;
+  }
+  .control6{
+    display: flex;
+    padding: 20px;
+     gap:20px;
+     
+  }     
+ .class_1{
+    font-size: 3rem;
+ }   
+select{
+    width:450px;
+    border-radius: 20px;
+    padding: 20px;
+    margin:10px;
+    box-shadow: 20px;
+   
+}
+.content_2{
+       padding: 10%;
+}
+
+.collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content0 {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      .container_{
+      display :flex;
+      padding: 20px;
+       margin:20px;
+       gap:20px;
+
+     }
+.content_:hover{animation: imageAnimation 5s alternate infinite;
+           transition: all 5s;
+       
+        }
+     
+        @keyframes imageAnimation{
+            from{top: 10%;
+                transform: translate(0vw,0vw);
+            }
+            to{bottom: 20%;
+                transform: scale(1.3);
+            }
+
+}
+
+.class-9>p{
+  font-size: 0.7rem;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+  
+
+<div class="control" >
+    <div class="control1">
+   <b>Our Special Offers</b></div>
+   <h6> START TO BE HEALTHY TODAY</h6> 
+
+<div class="control2">
+<div class="control3">
+    
+    <header><b>Allergy Check</b></header>
+        <b>$ </b> <span>255</span></b><br>
+       <i>10 treatments</i>
+      <p> Allergy Test</p>
+       <p> Consultation</p>
+      <p> Treatments</p> 
+      <p> 10 Procedures</p> 
+            <button class="btn btn-close" data-bs-dismiss="alert"></button>
+      <p>Test Results</p>
+       <div class="button7">
+         Get Now
+        </div>
+
+</div>
+<div class="control4">
+    
+    <header><b>Allergy Check</b></header>
+        <b>$ </b> <span>108</span></b><br>
+       <i>3 treatments</i>
+      <p> Refraction</p>
+       <p> Retinal Examination</p>
+      <p> Treatments</p> 
+      <p> 10 Procedures</p> 
+            <button class="btn btn-close" data-bs-dismiss="alert"></button>
+      <p>Full course</p>
+      
+        <div class="button6">
+           Get Now
+        </div>
+
+</div>
+
+<div class="control5">
+    
+    <header><b>Allergy Check</b></header>
+        <b>$ </b> <span>320</span></b><br>
+       <i>6 treatments</i>
+      <p> Gum care</p>
+       <p> Consultation</p>
+      <p> Treatments</p> 
+      <p> 10 Procedures</p> 
+      <div class="btn1">
+        <p>oral hygine</p></div>
+      <p>Full course</p>
+     <div class="button7">
+            Get Now
+        </div>
+</div></div></div>
+
+
+  
+  
+  
+   
+ 
+  
+  
+  
+  
+
+        
+     
+ 
+  <div class="control6">
+
+    <div class="content_2">
+  
+      <h1>Frequently Asked</h1>
+      <div class="class_1">
+      <b>  Questions</b></div>
+      <div class="button9">
+            View all
+    </div>
+
+
+</div>
+  
+    
+   
+ 
+      
+    
+     
+      <div class="control7">
+      
+      <button type="button1" class="collapsible">How to make an appointment?</button>
+      <div class="content0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <button type="button1" class="collapsible">what will insurence cover for me?</button>
+      <div class="content0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <button type="button1" class="collapsible">is there a parking place next to the clinic?</button>
+      <div class="content0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <button type="button1" class="collapsible">How can i make a home oppintment?</button>
+      <div class="content0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div></div>
+      <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+   
+  
+  
+  
+  
+  
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+     
+  </body>
+  </html>
+
+
+
+
+

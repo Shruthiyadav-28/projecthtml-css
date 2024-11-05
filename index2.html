@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+           .class1>i{
+  padding-top: 0%;
+  margin-top: 0%;
+  position: fixed;
+  padding: 20px;
+  box-shadow: #f1f1f1;
+ }
+  a{
+  
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }  
+.container{
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 10px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+
+
+}
+.child{
+    display: flex;
+    gap:20px;
+    text-decoration: none;
+    font-size: 2rex;
+    position: fixed;
+} 
+
+    .contain{
+        padding: 0%;
+        margin: 0%;
+        background-color: aquamarine;
+
+    }
+.contain1{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.contain2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    gap: 10px;
+    margin: 30px;
+   height: 600;
+  padding: 40px;
+
+    
+}
+.one_top{
+    justify-content: flex-start;
+   gap: 10px;
+   margin: 5px;
+}
+ .item{
+    justify-items: center;
+ }
+ .contain3{
+   position: relative;
+ }
+ .contain4{
+      position: absolute;
+    bottom: 350px;
+    right:  30px;
+    width:600px;
+    height: 40%;
+    animation: move 2.5s forwards;
+}
+.one{
+    color: blue;
+}
+button{
+    border-radius: 20px;
+    background-color: lightseagreen;
+    padding: 20px;
+    color: white;
+
+}
+button:hover{
+    background-color:white;
+    color: black;
+
+}
+@keyframes scrollanimation{
+        from{
+            transform:translate(1200px,10px);
+
+        }
+        to{
+transform: translate(0px,0px);
+        }
+    }
+    .contain4{
+        animation-name:scrollanimation ;
+        animation-duration: 1s;
+      animation-iteration-count:1;
+      animation-direction: normal;
+    }
+ 
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+ 
+
+<div class="contain" >
+
+<div class="contain1">
+ 
+ <h1>   How we can help you</h1>
+   <h6> READ MORE ABOUT OUR SERVICES </h6>
+</div>
+
+ <div class="contain2">
+    <div class="item">
+    <img src="./eye icon.jpg">
+    <div class="one_top">
+ <b>  Ophthalmology</b> </div>
+ 
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat
+    </p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="item">
+        
+        <img src="icon3_0005_.jpg">
+        
+        <div class="one_top"> <b>Cardiology</b></div>
+     
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat
+            </p>
+    </div>
+    <div class="item">
+        <img src="./icon3_0003_.jpg">
+        <div class="one_top"> 
+        <b>Dentistry</b></div>
+        <div class="one_middle"> 
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+    </div></div>
+    <div class="item">
+        
+        <img src="./icon3_0002_.jpg">
+        <div class="one_top"> 
+        <b>Laboratory</b></div>
+        <div class="one_middle"> 
+     <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p> </div>
+    </div>
+    <div class="item">
+        <img src="./icon3_0001_.jpg">
+        <div class="one_top"> 
+     <b> Pediatrics</b></div>
+     <div class="one_middle"> 
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p></div>
+    </div>
+    <div class="item">
+        <img src="./icon3_0000_ (1).jpg">
+        <div class="one_top"> 
+     <b>   Radiology</b> </div>
+     
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p> </div>
+    </div>
+
+     <div class="contain3">
+        
+
+   <img src="./Layer-img.jpg" width="100%">
+    
+   <div class="contain4">
+       <h2> Jenna Berg </h2> 
+       <div class="one">PROFESSIONAL DENTIST </div>  
+  
+    <div class="one_second">
+    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</b></div>
+    <div class="one_middle">
+   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p></div>
+    <div class="button">
+   <button>view all doctors</button></div>
+     </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
